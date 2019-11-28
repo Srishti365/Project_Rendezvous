@@ -1,0 +1,115 @@
+
+.imgcontrol{
+    height: 100vh;
+    background-image: url(bg-02.jpg);  
+    overflow:auto;
+    
+}
+.bgcontrol{
+    height: 100vh;
+    background: -webkit-linear-gradient(left, rgba(112, 221, 236, 0.8), rgba(37, 54, 85, 0.8)); 
+    position: relative;
+    z-index: 10; 
+    overflow: auto;
+}
+
+
+
+.container{
+    position: relative;
+    height: 800px;
+    margin-top:50px; 
+    background-color:white;
+    transition: 0.5s; 
+   width: 750px;
+    border-radius: 10px;
+    overflow: auto;
+    margin-bottom: 100px;
+} 
+
+
+
+.form-title{
+    margin-top: 50px;;
+    display: block;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+    overflow: auto;
+}
+
+.form-details{
+    margin-top: 25px;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    color: #333333;
+    line-height: 1.2;
+    padding: 20px;
+}
+
+.form-group{
+    
+    padding:10px
+}
+
+label{
+    padding: 5px;
+
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: #333333;
+    border-radius: 25px;
+    line-height: 1.2;
+    padding: 0 25px 0 60px;
+}
+
+.formbutton{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:  rgba(37, 54, 85, 0.8);
+    width:240px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+
+}
+
+.formbutton:hover{
+    background-color: rgba(90, 161, 170, 0.8);
+    transition: 0.7s;
+}
+
+.dash{
+    padding: 50px;
+    margin-left: 300px;
+    margin-top: 200px;
+    height: 350px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.dash-title{
+    display: block;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 42px;
+    line-height: 1.2;
+    text-align: center;
+    overflow: auto;
+    color:rgba(21, 30, 48, 0.8);
+}
